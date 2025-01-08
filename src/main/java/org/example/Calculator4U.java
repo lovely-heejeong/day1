@@ -3,6 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Calculator4U {
+
     public static void main(String[] args) {
         //scanner 필요
         Scanner scanner = new Scanner(System.in);
