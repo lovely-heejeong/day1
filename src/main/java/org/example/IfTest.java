@@ -18,11 +18,11 @@ public class IfTest{
 //        }
 
         //(방법2) if ~ return
-//        if (oddEven == 0){
-//            System.out.println("EVEN");
+//        if (oddEven == 1){
+//            System.out.println("ODD");
 //            return;
 //        }
-//        System.out.println("ODD");
+//        System.out.println("EVEN");
 
         //(방법3) 삼항 연산자: 조건식(결과)? 참인 경우 결과: 거짓인 경우
         //if ~ else 대신 처리하기 좋음
