@@ -2,6 +2,7 @@ package org.example;
 
 public class Item {
 
+    //사용자가 정의하는 데이터 타입
     String type;
     int amount;
 

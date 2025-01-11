@@ -10,22 +10,23 @@ public class IfTest{
 
         int oddEven = value % 2; //2로 나는 나머지 0,1
 
-        //만일 oddEven값이 0이면 짝수 출력 ==> boolean (참/거짓)
+        //(방법1) 만일 oddEven값이 0이면 짝수 출력 ==> boolean (참/거짓)
 //        if(oddEven == 0){
-//            System.out.println("짝수");
+//            System.out.println("EVEN");
 //        }else {
-//            System.out.println("홀수");
+//            System.out.println("ODD");
 //        }
 
-        //if ~ return
+        //(방법2) if ~ return
 //        if (oddEven == 0){
-//            System.out.println("짝수");
+//            System.out.println("EVEN");
 //            return;
 //        }
-//        System.out.println("홀수");
+//        System.out.println("ODD");
 
-        //삼항 연산자: 조건식(결과)? 참인 경우 결과: 거짓인 경우, if ~else 대신 처리하기 좋음
-        String result = oddEven == 1? "홀수":"짝수";
+        //(방법3) 삼항 연산자: 조건식(결과)? 참인 경우 결과: 거짓인 경우
+        //if ~ else 대신 처리하기 좋음
+        String result = oddEven == 1? "ODD":"EVEN";
         System.out.println(result);
 
         }

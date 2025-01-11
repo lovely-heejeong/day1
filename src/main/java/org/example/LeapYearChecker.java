@@ -6,7 +6,7 @@ public class LeapYearChecker {
 
         int year = 2024;
 
-        //범위가 가장 좁음
+        //적은 범위(위) -> 넓은 범위(아래) 순서로 적기
         if(year % 400 == 0){
             System.out.println("윤년");
         }else if(year % 100 == 0){
@@ -15,7 +15,7 @@ public class LeapYearChecker {
             System.out.println("윤년");
         }else {
             System.out.println("평년");
-        }
+        }//end if
 
     }
 }

@@ -1,9 +1,10 @@
 package org.example;
 
 public class MoneyBank {
+
     public static void main(String[] args) {
 
-        double money = 100; //유지하는 값
+        double money = 100; //유지하는 값: 원금
         double rate = 0.2; //2%의 금리
 
         //10년 거치
