@@ -7,7 +7,10 @@ public class StoreCalculator {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int[] arr = new int[5];
+        System.out.println("배열의 원하는 길이를 입력하세요 (숫자)");
+        int size = scanner.nextInt();
+        int[] arr = new int[size];
+
         System.out.println("배열에 값을 입력하세요.");
 
         for (int i = 0; i < arr.length; i++) {
@@ -16,6 +19,7 @@ public class StoreCalculator {
         }
 
         int total = 0;
+
         for (int value: arr){
             total += value;
             System.out.println("배열의 값은 " + total +"입니다.");
