@@ -20,7 +20,7 @@ public class Calculator4U {
                 break;
             }//end if
 
-            int money = Integer.parseInt(str); //키보드에서 입려 받는게 숫자니까 변환
+            int money = Integer.parseInt(str); //키보드에서 입력 받는게 숫자니까 변환
             sum = sum + money; //살아 있어야 되는 변수 => 범위 밖에
 
             System.out.println("SUM : " + sum);
